@@ -8,6 +8,7 @@ const app = createApp({
     data() {
         return {
             todos: [],
+            apptitle: 'Simple Todo list',
             form: {
                 task: '', 
                 done: false
